@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario</title>
+</head>
+
+<body>
+  <form>
+    <fieldset>
+      <legend>
+        <h1>Formulario de registro</h1>
+      </legend>
+      <p>
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" placeholder="Ingrese nombre" />
+      </p>
+      <p>
+        <label for="last-name">Apellidos:</label>
+        <input type="text" id="last-name" placeholder="Ingrese apellido" />
+      </p>
+      <p>
+        <label for="hombre">Sexo:<input type="radio" id="hombre" name="sexo" />hombre</label>
+        <label for="mujer"><input type="radio" id="mujer" name="sexo" />mujer</label>
+      </p>
+      <p>
+        <label for="mail">Correo:</label>
+        <input type="email" id="mail" placeholder="Ingrese correo electrónico" />
+      </p>
+      <p>
+        <label for="newsletter"><input type="checkbox" id="newsletter" />Deseo recibir notificaciones sobre
+          novedades y ofertas.</label>
+      </p>
+      <p>
+        <label for="TC"><input type="checkbox" id="TC" />Declaro haber leído y aceptar las condiciones generales del
+          programa y la normativa de protección de datos.</label>
+      </p>
+      <p>
+        <label for="send"><button type="submit" id="send">Enviar</button></label>
+      </p>
+    </fieldset>
+  </form>
+  <!-- Entiendo que estoy usando muchos <p></p> pero es la manera que conseguí de que quede separado como en la foto del ejercicio. -->
+
+</html>
